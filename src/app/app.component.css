@@ -1,0 +1,53 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.section {
+    flex: 1;
+}
+
+code {
+    font-size: 32px;
+    margin-left: 30px;
+}
+
+pre {
+    margin-left: 40px;
+}
+
+.numerNaLoterii {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #f3f32f;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    display: inline-grid;
+    font-weight: bold;
+}
+
+.tytul {
+    font-family: fantasy;
+    font-size: 32px;
+}
+
+.potwory {
+    display: flex;
+}
+
+.potwor {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.potwor-img {
+    width: 120px;
+    height: 120px;
+}

@@ -1,0 +1,25 @@
+<div class="app">
+  <div class="section left-section">
+    <blockquote>
+      <pre>
+        <code>
+for (let i=0; i<8; i++) &#123;
+  this.wylosujKolejnyNumer()
+&#125;
+
+for (let i=0; i<5; i++) &#123;
+  this.wyswietlPotwora(i)
+&#125;
+        </code>
+      </pre>
+    </blockquote>
+  </div>
+  <div class="section right-section">
+    <p class="tytul">Wylosowane numery na loterii:</p>
+    <div class="numerNaLoterii" *ngFor="let number of numeryNaLoterii">{{number}}</div>
+  
+    <p class="tytul">Sympatyczne potwory:</p>
+    <div class="potwory" [innerHTML]="potworyHTML"></div>
+
+  </div>
+</div>
