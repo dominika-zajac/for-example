@@ -23,6 +23,13 @@ export class AppComponent {
     }
   }
 
+  pokazPotwory() {
+    // Wzorując się na funkcji "wylosuj numery na loterię"
+    // uzupełnij tę funkcję tak by pokazywała 5 potworów.
+    // Do wyświetlania danego potwora uzyj funkcji this.wyswietlPotwora(i)
+    
+  }
+
   wylosujKolejnyNumer() {
     const min = 1;
     const max = 50;
@@ -31,12 +38,6 @@ export class AppComponent {
       nextNumber = Math.floor(Math.random() * (max - min + 1) + min)
     }
     this.numeryNaLoterii.push(nextNumber)
-  }
-
-  pokazPotwory() {
-    for (let i=0; i<5; i++) {
-      this.wyswietlPotwora(i)
-    }
   }
 
   wyswietlPotwora(index) {
